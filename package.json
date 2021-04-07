@@ -1,0 +1,23 @@
+{
+  "name": "al-cb",
+  "version": "1.0.0",
+  "description": "Alexandra Lunn website for Caroline Boseley",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRedDigital/al-cb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeRedDigital/al-cb/issues"
+  },
+  "homepage": "https://github.com/CodeRedDigital/al-cb#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
