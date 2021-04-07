@@ -1,0 +1,31 @@
+// Fonts
+
+// History 01
+@font-face{
+    font-family:"History 01";
+    src:url("https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-033325-010774-000275-e85a17905b3816b4f58536ce5a1555f8.eot");
+    src:url("https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-033325-010774-000275-e85a17905b3816b4f58536ce5a1555f8.eot?#iefix") 
+    format("embedded-opentype"),
+    url("https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-033325-010774-000275-e85a17905b3816b4f58536ce5a1555f8.woff2") 
+    format("woff2"),
+    url("https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-033325-010774-000275-e85a17905b3816b4f58536ce5a1555f8.woff") 
+    format("woff"),
+    url("https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-033325-010774-000275-e85a17905b3816b4f58536ce5a1555f8.svg#typotheque_webfonts_service") 
+    format("svg");
+} 
+// History 02
+@font-face {
+    font-family: "History 02";
+    src: url(../fonts/History_02.otf);
+}
+// Aktiv Grotesk
+@font-face{
+    font-family:'AktivGrotesk';
+    src:url("https://d33wubrfki0l68.cloudfront.net/053794899603fef55dfa7a205d79656c73eb094a/b7810/fonts/aktivgrotesk/aktivgrotesk_w_lt.eot");
+    src:url("https://d33wubrfki0l68.cloudfront.net/053794899603fef55dfa7a205d79656c73eb094a/b7810/fonts/aktivgrotesk/aktivgrotesk_w_lt.eot#iefix") 
+    format('embedded-opentype'),
+    url("https://d33wubrfki0l68.cloudfront.net/d4f51ac668ac47f23dce152a396dacae22749c92/cebca/fonts/aktivgrotesk/aktivgrotesk_w_lt.woff2")
+    format('woff2'),
+    url("https://d33wubrfki0l68.cloudfront.net/f2eb89bdabd6fda6b0d93d612fb819cd2f4e6170/79b53/fonts/aktivgrotesk/aktivgrotesk_w_lt.woff") 
+    format('woff');
+}

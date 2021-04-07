@@ -1,0 +1,24 @@
+html {
+    color: $cool-grey;
+    background-color: $charcoal-blue;
+    font-family: "History 02";
+}
+
+img.line {
+    width: 63vw;
+    height: 92vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.next-btn-below {
+    color: rgb(180,181,183);
+    border: 1px solid rgb(180,181,183);
+    width: 100px;
+    padding: 1em;
+    font-family: "History 2";
+    // text-decoration: underline;
+    text-align: center;
+}
