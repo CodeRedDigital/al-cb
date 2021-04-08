@@ -1,5 +1,6 @@
 <header>
     <nav>
+		<input type='checkbox' name='toggleMenu' id="toggleMenu"/>
         <h1>
             <a href="/projects" aris-label="{{ site.name }} - projects" class="logo">
                 <svg data-colour="charcoal-blue">
@@ -59,5 +60,11 @@
             </li>
             {% endfor %}
         </ul>
+		<label for="toggleMenu" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
     </nav>
 </header>
