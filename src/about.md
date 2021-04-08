@@ -4,6 +4,7 @@ layout: 'layouts/pages.html'
 color: 'cool-grey'
 background: 'rusty-orange'
 logo-colours: ['cool-grey', 'pale-blue', 'charcoal-blue']
+bodyclass: 'about'
 ---
 <p>After 12 years working in the City as a commercial solicitor and then Director of Human Resources, Caroline moved from education and fundraising and into curating. First gaining a Master's in Modern &amp; Contemporary Art from Christie's Education, she went on to complete an MA in Curating Contemporary Art at the Royal College of Art, London.&nbsp;&nbsp;</p>
 <p>Caroline's curatorial practice explores the role of contemporary art in the public realm, with a desire to enrich our urban environment and build community engagement. Working closely with architects, ecologists and other cross-disciplinary professionals, she interrogates how art outside of the gallery can create a space of encounter.</p>
