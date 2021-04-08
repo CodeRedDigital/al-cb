@@ -9,6 +9,9 @@
         <p>{{ text.text }}</p>
         {% endfor %}
     {% endif %}
+    {% if result.data.image.url.length %}
+        <img src="{{ result.data.image.url }}" alt="">
+    {% endif %}
     {% endif %}
     {% endfor %}
 </section>
