@@ -4,7 +4,8 @@
   "description": "Alexandra Lunn website for Caroline Boseley",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,12 @@
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@prismicio/client": "^4.0.0",
+    "concurrently": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
     "prismic-dom": "^2.2.5",
-    "prismic-javascript": "^3.0.2"
+    "prismic-javascript": "^3.0.2",
+    "sass": "^1.32.8"
   }
 }
