@@ -17,7 +17,7 @@
       {% endfor %}
     {% endif %}
   </head>
-  <body>
+  <body {% if bodyclass %}class="{{ bodyclass }}"{% endif %}>
     {% block content %}{% endblock %}
   </body>
 </html>

@@ -2,23 +2,125 @@ html {
     color: $cool-grey;
     background-color: $charcoal-blue;
     font-family: "History 02";
+    font-weight: 600;
 }
 
-img.line {
-    width: 63vw;
-    height: 92vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
+
+.welcome { 
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        svg.line {
+            display: none;
+        }
+        .content {
+            max-width: 90vw;
+            margin-bottom: 2em;
+            p {
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                line-height: 1;
+                margin: 2em 0;
+                strong {
+                    font-size: 2.3rem;
+                    font-family: 'History 01';
+                }
+                a {
+                    color: inherit;
+                    text-decoration: underline;
+                    text-decoration-thickness: 1px;
+                }
+            }
+        }
+        @media(min-width: 760px) {
+            align-items: flex-end;
+        }
+    }
+}
+
+@media(min-width: 760px) {
+    .welcome {
+        main {
+            align-items: flex-end;
+            svg.line {
+                width: 63vw;
+                height: 92vh;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+            }
+            .content {
+                p {
+                    font-size: 2.3rem;
+                    strong {
+                        font-size: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1439px) {
+    .welcome {
+        main{
+            svg.line {
+                position: absolute;
+                left: -40px;
+                width: 90vw;
+                height: 55vh;
+            }
+            .content {
+                margin-bottom: 0px;
+                margin-left: 2.8rem;
+                p {
+                    font-size: 2.72rem;
+                    line-height: 1.4;
+                    font-weight: 100;
+                    strong {
+                        font-size: 4.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1919px) {
+    .welcome {
+        main{
+            svg.line {
+                width: 87vw;
+                height: 53vh;
+            }
+            .content {
+                margin-bottom: 0px;
+                margin-left: 3rem;
+                p {
+                    font-size: 3.72rem;
+                    strong {
+                        font-size: 6.2rem;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .next-btn-below {
-    color: rgb(180,181,183);
-    border: 1px solid rgb(180,181,183);
+    color: $cool-grey;
+    border: 1px solid $cool-grey;
     width: 100px;
     padding: 1em;
-    font-family: "History 2";
-    // text-decoration: underline;
+    font-family: "History 02";
+    text-decoration: none;
     text-align: center;
 }
