@@ -1,0 +1,1241 @@
+{
+    "page": 1,
+    "results_per_page": 20,
+    "results_size": 13,
+    "total_results_size": 13,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null,
+    "results": [
+        {
+            "id": "X-ICohAAACMAm_MG",
+            "uid": null,
+            "type": "slider",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X-ICohAAACMAm_MG%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2020-12-22T14:28:55+0000",
+            "last_publication_date": "2021-01-14T09:58:25+0000",
+            "slugs": [
+                "welcome-slider",
+                "untitled-document"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Welcome Slider",
+                        "spans": []
+                    }
+                ],
+                "slider": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 1870,
+                                "height": 1052
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2F25cad67e-9f18-41f2-8881-ddb2de3b02d1_rca+wandsworth.png?auto=compress,format"
+                        },
+                        "link": {
+                            "id": "X-nvsRAAACEAvxH-",
+                            "type": "projects",
+                            "tags": [],
+                            "slug": "wandsworth-artists-open-house-showcase-2019",
+                            "lang": "en-gb",
+                            "uid": "for-the-second-year-running-the-royal-college-of-art1",
+                            "link_type": "Document",
+                            "isBroken": false
+                        },
+                        "alternative_text": "Wandsworth Artists' Open House Showcase 2019"
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 640,
+                                "height": 427
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/f6253656-09cc-40eb-b840-dddd3e434a95_Fragmented+Follies+on+the+terrace+of+Pump+House+Gallery+-+Image+courtesy+of+Thierry+Bal.jpg?auto=compress,format"
+                        },
+                        "link": {
+                            "id": "X_yJUBAAACIAEUuw",
+                            "type": "projects",
+                            "tags": [],
+                            "slug": "fragmented-follies",
+                            "lang": "en-gb",
+                            "uid": "fragmented-follies1",
+                            "link_type": "Document",
+                            "isBroken": false
+                        },
+                        "alternative_text": "Fragmented Follies"
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 2475,
+                                "height": 1856
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2F58a56f26-31d9-494d-9e20-f25fd554a9fa_1.jpeg?auto=compress,format"
+                        },
+                        "link": {
+                            "id": "X_yJRxAAAASqEUuC",
+                            "type": "projects",
+                            "tags": [],
+                            "slug": "critical-matter",
+                            "lang": "en-gb",
+                            "uid": "critical-matter11",
+                            "link_type": "Document",
+                            "isBroken": false
+                        },
+                        "alternative_text": "Critical Matter"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "YAGtdRAAACMAKFoN",
+            "uid": "kcaw-20---chelsea-windows1",
+            "type": "projects",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YAGtdRAAACMAKFoN%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2021-01-15T14:58:14+0000",
+            "last_publication_date": "2021-01-26T10:52:33+0000",
+            "slugs": [
+                "kcaw-20---chelsea-windows"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "KCAW 20 - Chelsea Windows",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": "For one of the headline projects for this year’s successful Kensington + Chelsea Art Week 2020, I invited local artists and creative studios to activate store windows along iconic Chelsea Streets and King’s Road, through a series of exhibitions and imaginative interventions.",
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "For one of the headline projects for this year’s successful Kensington + Chelsea Art Week 2020, I invited local artists and creative studios to activate store windows along iconic Chelsea Streets and King’s Road, through a series of exhibitions and imaginative interventions. Participating retailers such as Everyman Cinema and cake retailer Peggy Porschen displayed works by London based artists and our sponsor Sloane Stanley donated an empty retail space along Kings Road for an installation by Fiona Grady, who created a site responsive drawing on the windows, using geometric vinyl shapes. ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Particularly rewarding was fostering collaborations and connections between retailers and artist, that have existed long past the end of the festival, with some artists’ work still remaining on display into 2021. ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "I also provided logistical support to Little Voices - an intervention created by London based artist AMY JACKSON, comprising sculpture performance, spoken word and visual art, staged in a disused telephone exchange in Chelsea. 30 artists were invited to use the space, using a variety of mediums to address the issue of how to transform society to solve the looming climate crisis and the social inequalities of our time.",
+                        "spans": [
+                            {
+                                "start": 38,
+                                "end": 54,
+                                "type": "em"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Find out more at KCAW",
+                        "spans": [
+                            {
+                                "start": 17,
+                                "end": 21,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "http://www.kcaw.co.uk/",
+                                    "target": "_blank"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 3981,
+                                "height": 2654
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/4114e190-dc93-4b30-9f34-74df5d316071_Kings+Road+Day+%2816+of+27%29.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 1200,
+                                "height": 900
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/94627aec-cbd6-4d15-8cc7-e51a24eaf4b5_Kings+Road+Night+%2813+of+23%29_lo.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 2490,
+                                "height": 3735
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/5dec6a5e-8597-4fbc-96fc-f17fda34d735_FionaGrady_Portrait_6_photoDeanBrannagan.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 2820,
+                                "height": 1880
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/8a016d84-8b5b-4b3f-8014-516fd196ac90_Kings+Road+Day+%2826+of+27%29.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 5243,
+                                "height": 3495
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/2e3104fd-8913-425a-b0af-92b9c6e6cdb5_Kings+Road+Day+%2821+of+27%29.jpg?auto=compress,format"
+                        }
+                    }
+                ],
+                "project_information": [
+                    {
+                        "project_text": null
+                    }
+                ],
+                "video": {}
+            }
+        },
+        {
+            "id": "X_GiZBAAACEA4Ufc",
+            "uid": "what-we-need-todo-now",
+            "type": "news",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X_GiZBAAACEA4Ufc%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2021-01-03T10:54:39+0000",
+            "last_publication_date": "2021-01-04T10:37:50+0000",
+            "slugs": [
+                "what-we-need-to-do-now-for-a-zero-carbon-future-by-chris-goodall",
+                "another-news-article",
+                "a-news-article"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "What We Need to Do Now: For a Zero Carbon Future by Chris Goodall",
+                        "spans": []
+                    }
+                ],
+                "body": [
+                    {
+                        "type": "paragraph",
+                        "text": "All about how we can get carbon neutral by 2050, the author draws on actions, policies and technologies emerging across the world. I realised I needed to increase my in depth knowledge of the important issues and possible solutions, following my involvement with Amy Jackson’s Little Voices installation; a project centered on climate change.",
+                        "spans": [
+                            {
+                                "start": 277,
+                                "end": 291,
+                                "type": "em"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Natives: Race and Class in the Ruins of Empire by Akala ",
+                        "spans": [
+                            {
+                                "start": 0,
+                                "end": 56,
+                                "type": "em"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Speaking directly to the issue of racism and classism in Britain, Akala confronts these issues in an incredibly readable, direct and personal way. I want to gain a better understanding of my white privilege and the legacy and far reaching effects of colonialism and be able to reflect on my practice, challenge my choices as a curator and connect with and provide opportunities to a ",
+                        "spans": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "X_yJUBAAACIAEUuw",
+            "uid": "fragmented-follies1",
+            "type": "projects",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X_yJUBAAACIAEUuw%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2021-01-11T17:22:51+0000",
+            "last_publication_date": "2021-01-11T17:22:51+0000",
+            "slugs": [
+                "fragmented-follies"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Fragmented Follies ",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": "My RCA Graduate Project explored commissioning in an urban context.",
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "My RCA Graduate Project explored commissioning in an urban context. Fragmented Follies was a temporary outdoor commission by Sam Jacob, architect and designer and principal of Sam Jacob Studio, in partnership with Wandsworth Council’s Pump House Gallery, Battersea Park, London. Jacob created a series of striking abstracted sculptures, inspired by the traditional concept of the ‘Folly’, which enlivened and transformed the terrace of the gallery. Created directly from the design language of Battersea Park, the work drew upon the layered architectural and cultural histories of this urban greenspace and its surroundings. ‘Architecture is all about people’ and Jacob designed the work to encourage visitors to interact with the sculptures in any way they chose. Fundamental to our curatorial vision for the project, was this, public accessibility; in defiance of the barriers which often discourage interaction with contemporary sculpture, passers-by were invited to climb on the pieces, eat their lunch off them as though they were tables or simply stop and take in the view! ",
+                        "spans": [
+                            {
+                                "start": 68,
+                                "end": 86,
+                                "type": "em"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Graduate Project allowed me to refine my skills and individual curatorial practice within the real-world environment of a high-profile arts organisation, working alongside a local authority.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The project was co-designed with Year 9 students (13 to 14 years old) from Burntwood School, South London, through two creative workshops. This collaborative way of working was integral to the project designer and curators' philosophy for the project - that relationships can make things - an approach that is fundamental to my curatorial practice. ",
+                        "spans": []
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 640,
+                                "height": 427
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2Fb321120e-1a61-4cf3-8c26-41eef2051a2c_unnamed-2.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 640,
+                                "height": 427
+                            },
+                            "alt": "Fragmented Follies. Artist: Sam Jacob Studio Photograph: Thierry Bal ",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/7ea84e6b6c82b2d59982ae10ce4b4d3a3c6d8d1b_unnamed-1.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 640,
+                                "height": 427
+                            },
+                            "alt": "Fragmented Follies on the terrace of Pump House Gallery. Artist: Sam Jacob Studio. Photograph: Thierry Bal",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/36d34325078a615736766620a0c4bc98e407ee5a_fragmented-follies-on-the-terrace-of-pump-house-gallery---image-courtesy-of-thierry-bal.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 640,
+                                "height": 427
+                            },
+                            "alt": "Co-creation workshop at Burntwood School.Photograph: Keying Chen",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/4ecfcb7d9a3392e48c91aa740fd651456e321d94_unnamed.jpg?auto=compress,format"
+                        }
+                    }
+                ],
+                "project_information": [
+                    {
+                        "project_text": null
+                    },
+                    {
+                        "project_text": "May 2019"
+                    },
+                    {
+                        "project_text": "Pump House Gallery terrace, Battersea Park, London"
+                    }
+                ],
+                "video": {
+                    "height": 270,
+                    "width": 480,
+                    "embed_url": "https://www.youtube.com/watch?v=d6p16g6VDBM&t=1s",
+                    "type": "video",
+                    "version": "1.0",
+                    "title": "Fragmented Follies Pump House Gallery low res",
+                    "author_name": "Alexandra Lunn",
+                    "author_url": "https://www.youtube.com/channel/UC4PgXo-uZ1Uivu4g9WfHv5A",
+                    "provider_name": "YouTube",
+                    "provider_url": "https://www.youtube.com/",
+                    "cache_age": null,
+                    "thumbnail_url": "https://i.ytimg.com/vi/d6p16g6VDBM/hqdefault.jpg",
+                    "thumbnail_width": 480,
+                    "thumbnail_height": 360,
+                    "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/d6p16g6VDBM?start=1&feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+                }
+            }
+        },
+        {
+            "id": "X-sQkxAAACEAxBZ_",
+            "uid": "natives-race-class",
+            "type": "news",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X-sQkxAAACEAxBZ_%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2020-12-29T11:18:53+0000",
+            "last_publication_date": "2021-01-04T10:38:28+0000",
+            "slugs": [
+                "natives-race-and-class-in-the-ruins-of-empire-by-akala",
+                "a-news-article"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Natives: Race and Class in the Ruins of Empire by Akala ",
+                        "spans": []
+                    }
+                ],
+                "body": [
+                    {
+                        "type": "paragraph",
+                        "text": "Speaking directly to the issue of racism and classism in Britain, Akala confronts these issues in an incredibly readable, direct and personal way. I want to gain a better understanding of my white privilege and the legacy and far reaching effects of colonialism and be able to reflect on my practice, challenge my choices as a curator and connect with and provide opportunities to a diverse selection of artists. I am currently participating in a series of discussion workshops on social justice and equality with Board members and staff of Primary, as part of the institution's commitment to ensure diversity and equality is at the heart of the organisation and everything it does. ",
+                        "spans": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "YAGfYBAAACMAKBjn",
+            "uid": "snowflake-kitchen",
+            "type": "projects",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YAGfYBAAACMAKBjn%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2021-01-15T13:57:56+0000",
+            "last_publication_date": "2021-01-15T14:45:53+0000",
+            "slugs": [
+                "snowflake-kitchen"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Snowflake Kitchen ",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": "Snowflake Kitchen is a project that I had the pleasure of co-curating with artist Maya Sanbar for Goldfinger, a social enterprise that crafts furniture and objects from reclaimed and sustainable materials.",
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "Snowflake Kitchen is a project that I had the pleasure of co-curating with artist Maya Sanbar for Goldfinger, a social enterprise that crafts furniture and objects from reclaimed and sustainable materials. Using ceramic off-cuts from Studio Peover, we commissioned 40 celebrated artists to customise unique snowflakes. They were then auctioned on line to raise money for Goldfinger’ People’s Kitchen, an initiative that seeks to eradicate food poverty in the local community. For me, this project was a combination of everything I care about: working with emerging local artists, collaboration with an organisation whose mission encompasses sustainability, education and training and making a positive impact on the local community. All achieved in an incredibly short timescale: from idea to auction, the project took just over a month.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Goldfinger’s Founder Marie Cudennec said: ‘This project shows the world that art and design can and should be planet and people positive’. Through this project, we're excited to be collaborating with so many talented artists to help feed our community during the pandemic. Their generosity in creating these beautiful objects reminds us of the critical role the arts play in social cohesion and wellbeing.’ ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "https://www.goldfinger.design/pages/goldfinger-kitchen",
+                        "spans": []
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 480,
+                                "height": 640
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/20305c31-e9cc-4cf0-bb1e-84e2a20d901f_IMG_1767.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 480,
+                                "height": 640
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/20305c31-e9cc-4cf0-bb1e-84e2a20d901f_IMG_1767.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 768,
+                                "height": 1024
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/5e0729b4-8d5d-40cb-8177-d372926992b7_071a0cf2-28f0-4096-842e-c264369b2c16.JPG?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 768,
+                                "height": 1024
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/101f732e-7ae2-40c4-bf1f-c882c09f4484_e1225dcc-7f42-496d-9a23-1c6c1eec4179.JPG?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 480,
+                                "height": 640
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/bd47cb99-8947-45e1-b542-7d04cdcaa781_IMG_1665.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 480,
+                                "height": 640
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/bd47cb99-8947-45e1-b542-7d04cdcaa781_IMG_1665.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 360,
+                                "height": 640
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/43bdddde-b2fd-487d-a5d8-09cdcb2ed348_621B0EC9-4D12-4D0A-86F7-1CEA037EAF04.JPG?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 768,
+                                "height": 1024
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/01c0b3e6-3bad-410f-b1ae-0cefe0b1ffa3_d75559d8-f487-46e1-b1fb-e5b9c543c418.JPG?auto=compress,format"
+                        }
+                    }
+                ],
+                "project_information": [
+                    {
+                        "project_text": "Snowflake Kitchen is a project that I had the pleasure of co-curating with artist Maya Sanbar for Goldfinger, a social enterprise that crafts furniture and objects from reclaimed and sustainable materials. Using ceramic off-cuts from Studio Peover"
+                    }
+                ],
+                "video": {}
+            }
+        },
+        {
+            "id": "X_GidBAAACEA4Ugn",
+            "uid": "kensington-upcoming",
+            "type": "upcoming",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X_GidBAAACEA4Ugn%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2021-01-03T10:54:54+0000",
+            "last_publication_date": "2021-01-04T11:03:59+0000",
+            "slugs": [
+                "kensington--chelsea-art-week-2021-24-june---4-july-2021",
+                "another-new-project",
+                "an-upcoming-project"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "project_title": [
+                    {
+                        "type": "heading1",
+                        "text": "Kensington + Chelsea Art Week 2021 24 June - 4 July 2021 ",
+                        "spans": []
+                    }
+                ],
+                "body": [
+                    {
+                        "type": "paragraph",
+                        "text": "Full speed ahead for the fourth edition of Kensington + Chelsea Art Week, which has launched an open call for artists and curators, to submit their artworks to be displayed for a minimum of one month in Summer 2021, as part of the Public Art Trail. The theme for 2021 is: REIMAGINE.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Further information on how to apply can be found here.",
+                        "spans": [
+                            {
+                                "start": 49,
+                                "end": 54,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "https://www.kcaw.co.uk/public-art-open-call"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "image": {
+                    "dimensions": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "alt": null,
+                    "copyright": null,
+                    "url": "https://images.prismic.io/carolineboseley/f01f9f13-d1c8-46cf-be3a-d5eb8a7dcb32_Screenshot+2020-05-15+at+19.33.10.jpeg?auto=compress,format&rect=299,0,3267,2178&w=600&h=400"
+                }
+            }
+        },
+        {
+            "id": "XRs2hRAAACUAwLeg",
+            "uid": "about",
+            "type": "about",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XRs2hRAAACUAwLeg%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2019-07-02T10:48:39+0000",
+            "last_publication_date": "2021-03-19T15:17:57+0000",
+            "slugs": [
+                "about"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "About",
+                        "spans": []
+                    }
+                ],
+                "image": {
+                    "dimensions": {
+                        "width": 3600,
+                        "height": 2400
+                    },
+                    "alt": "Photo: Emma Marshall ",
+                    "copyright": null,
+                    "url": "https://images.prismic.io/carolineboseley/072186d4d619b5185e17f383cc5bedb0463a5ac9_190621_caroline-14-edit_print.jpeg?auto=compress,format"
+                },
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "After 12 years working in the City as a commercial solicitor and then Director of Human Resources, Caroline moved from education and fundraising and into curating. First gaining a Master's in Modern & Contemporary Art from Christie's Education, she went on to complete an MA in Curating Contemporary Art at the Royal College of Art, London.  ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Caroline's curatorial practice explores the role of contemporary art in the public realm, with a desire to enrich our urban environment and build community engagement. Working closely with architects, ecologists and other cross-disciplinary professionals, she interrogates how art outside of the gallery can create a space of encounter.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As a firm believer in art’s power to unite in challenging times, many of Caroline’s projects have a social cause at their centre. With experience working on arts and culture projects with charities and social enterprises, Caroline is passionate about how contemporary art and sculpture can engage and benefit a wider community.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As an extension of this, Caroline spends a lot of her time nurturing and mentoring emerging artists. She seeks to mediate the work of emerging artists to a non-art audience, crafting experiences that can be shared and enjoyed.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Currently, Caroline works within the vibrant creative arts hub of Somerset House Exchange.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Caroline sits on the Advisory Board of Kensington + Chelsea Art Week as Curator of Special Projects. This year, despite the COVID pandemic, she helped the committee bring the ten-day festival of arts and culture to life. Curated under the theme of ‘Transformation’ the programme included a public art trail, pop-up ‘galleries’ in shop windows, street murals and a community-led poetry project. Next year, the festival is set to run from 24 June - 4 July 2021 - bigger and better than ever.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "In May 2020, Caroline joined the Board of Trustees of Primary Nottingham, an artist-led space which has transformed a Grade II listed former school into a dynamic and outward-looking artistic community. Over 40 artists with a wide range of visual arts practices work in the building alongside independent galleries, design workshops, the Small Food Bakery and an urban garden. With an exciting and accessible public programme, community-focused projects and ambitious commissioning plans, Primary explores new ways for local and international audiences to engage with the wonderful world of contemporary art.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "For further information, check out Primary.",
+                        "spans": [
+                            {
+                                "start": 35,
+                                "end": 42,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "https://weareprimary.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "",
+                        "spans": []
+                    }
+                ],
+                "text2": [
+                    {
+                        "type": "paragraph",
+                        "text": "",
+                        "spans": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "X_yJRxAAAASqEUuC",
+            "uid": "critical-matter11",
+            "type": "projects",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X_yJRxAAAASqEUuC%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2021-01-11T17:22:43+0000",
+            "last_publication_date": "2021-01-11T17:22:43+0000",
+            "slugs": [
+                "critical-matter"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Critical Matter",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": "Show of four RCA sculptors in the Dyson Gallery at RCA Battersea.",
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "20 - 23 February 2019, Dyson Gallery, RCA, Battersea - Jointly curated with Maria Cynkier and Lin Zhao.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Critical Matter presented installations by four RCA artists: Rosanna Dean, Victoria Mihatovic, Susie Olczak and Samuel Padfield. The sculptural works animated the Dyson Gallery by exploring ways we position ourselves in the world around us. In accordance with philosopher Henri Bergson’s notion that all materials are entangled in the web of life, the artists addressed the relationship between people's activity and the material world, using a selection of everyday materials, deeply ingrained with the mark of the urban landscape. ",
+                        "spans": [
+                            {
+                                "start": 0,
+                                "end": 15,
+                                "type": "em"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Working within a tight timeframe, the exhibition gave me the opportunity to work collaboratively with young artists with four very different practices, to present a show, which was both cohesive and visually appealing. It achieved a balance between the gallery space and beyond, with the vast glass windows, looking out onto Battersea Bridge Road. ",
+                        "spans": []
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 1392,
+                                "height": 1856
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/57ebf7ab95c469324d5b1de379425cf385cb8c08_1-1.jpeg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 2475,
+                                "height": 1856
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/4a4a55cbb4833d644abf4904e11144478b641fda_1.jpeg?auto=compress,format"
+                        }
+                    }
+                ],
+                "project_information": [
+                    {
+                        "project_text": "Dyson Gallery, RCA, Battersea"
+                    }
+                ],
+                "video": {}
+            }
+        },
+        {
+            "id": "X-nvsRAAACEAvxH-",
+            "uid": "for-the-second-year-running-the-royal-college-of-art1",
+            "type": "projects",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X-nvsRAAACEAvxH-%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2020-12-28T14:46:23+0000",
+            "last_publication_date": "2020-12-28T14:46:23+0000",
+            "slugs": [
+                "wandsworth-artists-open-house-showcase-2019"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Wandsworth Artists' Open House Showcase 2019",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": null,
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "An exciting opportunity for emerging artists aged between 18 -25 to have their work selected and exhibited at the Royal College of Art's Dyson Gallery during the London Borough of Wandsworth's Artists' Open House (WAOH) - an event that ran over two weekends in October 2019, with 130 artists across the borough, opening their homes and studios for the public to enjoy their artworks. ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "For the second year running, the Royal College of Art (RCA), teamed up with WAOH to offer bursaries to five young artists, who live in Wandsworth. The selected winners -Anna Woodward, Salma Nassef, Kelly Mosquera, Pietra Galli and Sam Cottington work in a variety of mediums and were supported through a group exhibition from 6 – 13 October 2019, which I had the pleasure of curating. The young artists were also supported with an invaluable mentoring session by a tutor or talented student from the RCA. I was delighted to be able to work with Hannah Lambert of the Community Engagement Department at RCA on the project and to participate in such a positive and practical way, to the development of the artists' emerging careers.",
+                        "spans": [
+                            {
+                                "start": 169,
+                                "end": 182,
+                                "type": "em"
+                            },
+                            {
+                                "start": 184,
+                                "end": 196,
+                                "type": "em"
+                            },
+                            {
+                                "start": 198,
+                                "end": 212,
+                                "type": "em"
+                            },
+                            {
+                                "start": 214,
+                                "end": 227,
+                                "type": "em"
+                            },
+                            {
+                                "start": 231,
+                                "end": 246,
+                                "type": "em"
+                            }
+                        ]
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 4032,
+                                "height": 3024
+                            },
+                            "alt": "A view of the RCA Dyson Gallery with work by Salma Nassef, Pietra Galli, Kelly Mosquera and Anna Woodward",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2Ffee1b748-d12d-4065-b4ee-bc03f2086f99_img_0420.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 3024,
+                                "height": 4032
+                            },
+                            "alt": "Graphite sketch - Kelly Mosquera ",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2F0c265a48-d3a2-4900-9dd3-381fc4da39aa_img_1220.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 3024,
+                                "height": 4032
+                            },
+                            "alt": "Detail of 'Honour Thy Father' - Anna Woodward (Oil and watercolour on board)",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2F5d6edaa3-5849-4f5a-8124-e2aeecad70a9_anna+woodward+close+up.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 1337,
+                                "height": 1876
+                            },
+                            "alt": "Collage, wallhanging and video work - Salma Nassef ",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley%2Fe3e525b3-2614-4223-beff-b5dfe9572500_salma+nassef+.jpg?auto=compress,format"
+                        }
+                    }
+                ],
+                "project_information": [
+                    {
+                        "project_text": null
+                    }
+                ],
+                "video": {}
+            }
+        },
+        {
+            "id": "XhtU5BEAACQAonNF",
+            "uid": "i-am-delighted-to-have-been-invited-to-join-the-team",
+            "type": "event",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XhtU5BEAACQAonNF%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2020-01-12T17:20:08+0000",
+            "last_publication_date": "2020-07-21T13:45:53+0000",
+            "slugs": [
+                "kensington--chelsea-art-week-will-now-take-place-on--1---10-october-2020",
+                "kensington--chelsea-art-week-26-june---5-july-2020"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Kensington + Chelsea Art Week Will Now Take Place on  1 - 10 October 2020",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": null,
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "I was delighted to join the team, ably headed by curator Vestalia Clifford, organising this ten day festival, originally scheduled for the end of June, celebrating the borough's artistic history and the exciting artists and creatives who are currently living and working in West London.",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "With an art trail, a public art installation programme and hundreds of events culminating in the Exhibition Road Festival in partnership with 19 cultural institutions, including the Science Museum, the V&A, Imperial College and the Design Museum, this year's event was going to be a unique celebration of creativity, exploration, collaboration and the ability of art and culture to engage and excite new audiences!",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The January Open Call inviting artists, organisations, performers and curators to submit artworks and projects for the Public Art Trail was very successful with over 110 artists submitting proposals. https://www.kcaw.co.uk/public-art-open-call ",
+                        "spans": [
+                            {
+                                "start": 200,
+                                "end": 244,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "https://www.kcaw.co.uk/public-art-open-call"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "However, the impact of the COVID-19 pandemic and the imposition of lockdown, has caused the Committee to re- think ART WEEK, whilst continuing our commitment to supporting the artists, creative spaces and cultural institutions, while their doors are closed. ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Our approach moving forward in these uncertain times, is fourfold :",
+                        "spans": []
+                    },
+                    {
+                        "type": "o-list-item",
+                        "text": "Supporting our local arts community by continuing to showcase and celebrate work through rich and diverse on line digital programming and an Ideas Exchange to support local cultural industries - see https://www.kcaw.co.uk/ and click on the Ideas Exchange tab. ",
+                        "spans": [
+                            {
+                                "start": 199,
+                                "end": 222,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "https://www.kcaw.co.uk/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "o-list-item",
+                        "text": "We are committed to as many elements as possible of the Public Art trail - connecting the borough through temporary art installations and engaging and thought provoking cultural activity; hopefully through the summer months - further news to come!",
+                        "spans": []
+                    },
+                    {
+                        "type": "o-list-item",
+                        "text": "Activation of shop windows along Kings Road, turning retail spaces into pop up exhibition venues, depending on when social distancing is lifted to allow such interaction - check out our Instagram pages @kcawlondon or @caroline boseley for further news.",
+                        "spans": []
+                    },
+                    {
+                        "type": "o-list-item",
+                        "text": "KCAW Special programming with special emphasis on the spoken word - our new festival launch date is 1 October, which is National Poetry Day, so what is more fitting than a celebration of spoken word, with poetry, theatre and live sound events. ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Our hope is that we can continue to engage our community and wider audiences with cultural experiences to be enjoyed, responding to these unprecedented challenges with creativity and imagination. ",
+                        "spans": []
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 3862,
+                                "height": 2178
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/f01f9f13-d1c8-46cf-be3a-d5eb8a7dcb32_Screenshot+2020-05-15+at+19.33.10.jpeg?auto=compress,format"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "XSS4XhAAACIA6p90",
+            "uid": "home",
+            "type": "home",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XSS4XhAAACIA6p90%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2019-07-09T15:56:14+0000",
+            "last_publication_date": "2020-11-09T15:42:57+0000",
+            "slugs": [
+                "home"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Home",
+                        "spans": []
+                    }
+                ],
+                "contact_text": [
+                    {
+                        "type": "paragraph",
+                        "text": "caroline@carolineboseley.com",
+                        "spans": [
+                            {
+                                "start": 0,
+                                "end": 28,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "mailto:caroline@carolineboseley.co.uk"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Exchange, Somerset House, West Service Yard, Goods Entrance, Victoria Embankment, London, WC2R 1LA\n",
+                        "spans": []
+                    }
+                ],
+                "links": [
+                    {
+                        "link_title": "Instagram",
+                        "link": {
+                            "link_type": "Web",
+                            "url": "https://www.instagram.com/carolineboseley/",
+                            "target": "_blank"
+                        }
+                    },
+                    {
+                        "link_title": "LinkedIn",
+                        "link": {
+                            "link_type": "Web",
+                            "url": "https://www.linkedin.com/in/caroline-b-9a102b186/?trk",
+                            "target": "_blank"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "XUMrchAAACEAE8Pf",
+            "uid": "teaser",
+            "type": "projects",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XUMrchAAACEAE8Pf%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2019-08-01T18:12:19+0000",
+            "last_publication_date": "2019-08-29T15:23:52+0000",
+            "slugs": [
+                "teaser"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Teaser \n",
+                        "spans": []
+                    }
+                ],
+                "text_excerpt": null,
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "text": "An informal collaboration between graduating sculptors from the Royal College of Art and the Slade School of Fine Art, this group show provided a glimpse into the current direction of the artists’ practices and a testing ground for some of their ideas for final degree show work. ",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Participating artists were:",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Rob Branigan (RCA)\nGraham Clemie (Slade)\nJean-Philippe Dordolo (Slade)\nVictoria Mihatovic (RCA)\nVeronika Neukirch (RCA) \nSusie Olczak (RCA)\nRyan Orme (Slade)\nCatriona Robertson (RCA)\nAlexandra Searle (Slade)\nEleanor Turnbull (Slade)\n",
+                        "spans": []
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As the curator, it was exciting to embrace the differences in each artist's practice and help them display their work effectively within the space, in a way that initiated conversations and visual connections, while allowing each artwork to stand alone.   ",
+                        "spans": []
+                    }
+                ],
+                "gallery": [
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 640,
+                                "height": 476
+                            },
+                            "alt": "Teaser: (left to right) 'Well Hung' - Alexandra Searle (2018); 'An Exercise in perception led by the rigour of the hand\" - Victoria Mihatovic (2019); 'Breaking Free - a rebirth(If only I could) (2018) - Graham Clemie; Darwin Gallery, RCA, Kensington , ",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/1354c9a52877f105367950556cf7ae5dfb526853_d3fff9fa-4971-4dc3-9756-5e6b00c0ace9.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 486,
+                                "height": 640
+                            },
+                            "alt": "'Chain Reaction II' - Susie Olczak (2019)",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/0de33433d089db7812f7286c7550c3948324ba19_172e3100-e60c-45fb-a45c-2f52c60879d3.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 578,
+                                "height": 640
+                            },
+                            "alt": "'Teaser' - Darwin Gallery, RCA, Kensington ",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/53c23de2825d5d7d4b28bd6738bc418196e06c71_35c1bf23-4273-46f5-8006-b8814c473421.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 482,
+                                "height": 640
+                            },
+                            "alt": "'Die letzen Sekunden des Sommers (Vesuv) - Jean-Philippe Dordolo (2019)",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/89cd784cb4ceec38baa1329659b7ee4a152e47a5_8cdc952f-885d-4f42-9abb-6b538ca1b45e.jpg?auto=compress,format"
+                        }
+                    },
+                    {
+                        "image": {
+                            "dimensions": {
+                                "width": 474,
+                                "height": 640
+                            },
+                            "alt": "'Untitled\" - Alexandra Searle(2015)",
+                            "copyright": null,
+                            "url": "https://images.prismic.io/carolineboseley/ae07c4c67accaf4bf22f8519d55ae6a84785aabb_569e8655-250b-418e-9fb3-ca9664b5fe03.jpg?auto=compress,format"
+                        }
+                    }
+                ],
+                "project_information": [
+                    {
+                        "project_text": null
+                    },
+                    {
+                        "project_text": null
+                    },
+                    {
+                        "project_text": "Artists: Various"
+                    },
+                    {
+                        "project_text": "Darwin Gallery, RCA, Kensington"
+                    }
+                ],
+                "video": {}
+            }
+        }
+    ],
+    "version": "fbb44a3",
+    "license": "All Rights Reserved"
+}
