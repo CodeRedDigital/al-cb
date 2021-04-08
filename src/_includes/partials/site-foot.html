@@ -1,6 +1,9 @@
 <footer>
     <ul>
-        <li><a href="https://www.instagram.com/carolineboseley/">Instagram</a></li>
-        <li><a href="mailto:caroline@carolineboseley.com">Email</a></li>
+        {% for item in footernav.items %}
+            <li>
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+        {% endfor %}
     </ul>
 </footer>
