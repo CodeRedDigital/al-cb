@@ -1,0 +1,13 @@
+{% if prismic.results.length %}
+<section class="news">
+<h2>Current Reads</h2>
+    {% for result in prismic.results %}
+    {% if result.type == 'news' %}
+    <a href="{{ result.slugs[0] }}" class="{% if result.data.gallery[0].image.dimensions.width > result.data.gallery[0].image.dimensions.height %}landscape{% else %}portrait{% endif %}">
+        <h2>{{ result.data.title[0].text }}</h2>
+        <img src="{{ result.data.gallery[0].image.url }}" alt="">
+    </a>
+    {% endif %}
+    {% endfor %}
+</section>
+{% endif %}

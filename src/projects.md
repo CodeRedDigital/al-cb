@@ -1,6 +1,7 @@
 ---
-title: 'Caroline Boseley - Projects'
+title: 'Projects'
 layout: 'layouts/projects.html'
-dave: 'yes'
+color: 'rusty-orange'
+logo-colours: ['cool-grey', 'pale-blue', 'charcoal-blue', 'rusty-orange']
 ---
 

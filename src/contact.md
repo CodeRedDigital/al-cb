@@ -1,6 +1,9 @@
 ---
 title: 'Contact'
-layout: 'layouts/contact.html'
+layout: 'layouts/pages.html'
+color: 'cool-grey'
+background: 'charcoal-blue'
+logo-colours: ['rusty-orange', 'cool-grey', 'pale-blue', 'charcoal-blue']
 ---
 
 <a href="mailto:caroline@carolineboseley.co.uk">caroline@carolineboseley.com</a>

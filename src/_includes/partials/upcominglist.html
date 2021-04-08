@@ -1,0 +1,15 @@
+{% if prismic.results.length %}
+<section class="upcoming">
+<h2>Upcoming Projects</h2>
+    {% for result in prismic.results %}
+    {% if result.type == 'upcoming' %}
+    <h2>{{ result.data.project_title[0].text }}</h2>
+    {% if result.data.body.length %}
+        {% for text in result.data.body %}
+        <p>{{ text.text }}</p>
+        {% endfor %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</section>
+{% endif %}
