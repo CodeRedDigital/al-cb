@@ -4,6 +4,7 @@ layout: 'layouts/pages.html'
 color: 'cool-grey'
 background: 'charcoal-blue'
 logo-colours: ['rusty-orange', 'cool-grey', 'pale-blue', 'charcoal-blue']
+bodyclass: 'contact'
 ---
 
 <a href="mailto:caroline@carolineboseley.co.uk">caroline@carolineboseley.com</a>
