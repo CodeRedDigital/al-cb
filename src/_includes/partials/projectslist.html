@@ -1,11 +1,11 @@
 {% if prismic.results.length %}
 <nav>
-    <ul>
+    <ul class="projects" role="list">
     {% for result in prismic.results %}
     {% if result.type == 'projects' %}
     <li>
-        <a href="{{ result.slugs[0] }}" class="{% if result.data.gallery[0].image.dimensions.width > result.data.gallery[0].image.dimensions.height %}landscape{% else %}portrait{% endif %}">
-            <h2>{{ result.data.title[0].text }}</h2>
+        <a href="{{ result.slugs[0] }}" class="{% if result.data.gallery[0].image.dimensions.width > result.data.gallery[0].image.dimensions.height %}landscape{% else %}portrait{% endif %} project">
+            <h2 class="project_name">{{ result.data.title[0].text }}</h2>
             <img src="{{ result.data.gallery[0].image.url }}" alt="">
         </a>
     </li>
