@@ -7,10 +7,14 @@ header nav #hamburger div {
     background-color: $rusty-orange;
 }
 
-.newslist {
+section {
+    margin:50px 0 2rem;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+}
+
+.newslist {
+    justify-content: flex-start;
     flex-wrap: wrap;
     @media(min-width: 1100px) {
         flex-direction: row;
@@ -20,6 +24,21 @@ header nav #hamburger div {
         article {
             width: 45%;
             margin-right: 3rem;
+        }
+    }
+}
+
+.upcoming article {
+    display: flex;
+    flex-direction: column-reverse;
+    @media(min-width: 860px) {
+        width: 90vw;
+        flex-direction: row;
+        img {
+            width: 40%;
+        }
+        p {
+            width: 60%
         }
     }
 }

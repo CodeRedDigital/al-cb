@@ -6,9 +6,7 @@
         <article>
             <h3>{{ result.data.title[0].text }}</h3>
             {% if result.data.body.length %}
-                {% for text in result.data.body %}
-                {% if text.text.length %}<p>{{ text.text }}</p>{% endif %}
-                {% endfor %}
+                <p>{{ result.data.body[0].text }}</p>
             {% endif %}
         </article>
     {% endif %}

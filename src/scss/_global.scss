@@ -1,7 +1,21 @@
+html {
+    font-size: 18px;
+    @media(min-width: 1280px) {
+        font-size: 20px;
+    }
+    @media(min-width: 1440px) {
+        font-size: 22px;
+    }
+    @media(min-width: 1600px) {
+        font-size: 24px;
+    }
+}
+
 body {
     padding: 0 10px;
     font-family: "AktivGrotesk";
     font-weight: 300;
+    line-height: 1.5
 }
 
 // headings
@@ -13,13 +27,14 @@ h1, h2, h3, h4 {
 h2 {
     font-family: "History 01";
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     letter-spacing: 1px;
+    margin-bottom: 1rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     // margin-bottom: -1rem;
 }
 
@@ -145,7 +160,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 4rem;
     display: flex;
     ul {
         width: 100%;

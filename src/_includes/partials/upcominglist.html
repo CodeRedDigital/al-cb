@@ -3,15 +3,15 @@
 <h2>Upcoming Projects</h2>
     {% for result in prismic.results %}
     {% if result.type == 'upcoming' %}
-    <h2>{{ result.data.project_title[0].text }}</h2>
+    <h3>{{ result.data.project_title[0].text }}</h3>
+    <article>
     {% if result.data.body.length %}
-        {% for text in result.data.body %}
-        <p>{{ text.text }}</p>
-        {% endfor %}
+        <p>{{ result.data.body[0].text }}</p>
     {% endif %}
     {% if result.data.image.url.length %}
         <img src="{{ result.data.image.url }}" alt="">
     {% endif %}
+    </article>
     {% endif %}
     {% endfor %}
 </section>
