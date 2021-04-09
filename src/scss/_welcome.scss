@@ -9,15 +9,13 @@ html {
     font-family: "History 02";
     font-weight: 600;
     main {
-        width: 100vw;
-        height: 100vh;
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 0;
-        left: 0;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        // position: absolute;
+        // top: 0;
+        // left: 0;
         svg.line {
             display: none;
         }
