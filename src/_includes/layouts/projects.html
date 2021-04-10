@@ -1,8 +1,18 @@
+{% set colours = logo-colours %}
 {% extends "layouts/base.html" %} {% block content %}
 {% include "partials/site-head.html" %}
 <main>
     {% include "partials/projectslist.html" %}
-    
+    <p>{{ logo-colours }}</p>
 </main>
 {% include "partials/site-foot.html" %}
+<script>
+    const colours = ['cool-grey', 'pale-blue', 'charcoal-blue', 'rusty-orange'];
+    const numOfColours = colours.length;
+    function changeColour(el) {
+        const rndNum = Math.floor((Math.random() * numOfColours)); 
+        el.removeAttribute('data-colour');
+        el.setAttribute('data-colour', colours[rndNum]);
+    }
+</script>
 {% endblock %} 
