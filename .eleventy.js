@@ -4,6 +4,10 @@ module.exports = config => {
     config.addPassthroughCopy('./src/fonts/');
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
     config.setUseGitIgnore(false);
+    config.addFilter("debugger", (...args) => {
+        console.log(...args)
+        debugger;
+      })
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
