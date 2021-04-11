@@ -1,6 +1,6 @@
 ---
 title: 'Contact'
-layout: 'layouts/pages.html'
+layout: 'layouts/contact.html'
 color: 'cool-grey'
 background: 'charcoal-blue'
 logo-colours: ['rusty-orange', 'cool-grey', 'pale-blue', 'charcoal-blue']

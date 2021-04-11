@@ -1,0 +1,15 @@
+{% if contact.length %}
+    {% for content in contact %}
+        {% if content.data.contact_text.length %}
+            {% for paragraph in content.data.contact_text %}
+                {% if paragraph.spans.length %}
+                    <p style="color:red;">{{ paragraph.text }}</p>
+                {% else %}
+                    <p>{{ paragraph.text }}</p>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {{ content | safe }}
+{% endif %}
