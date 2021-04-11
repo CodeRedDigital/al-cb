@@ -1,3 +1,4 @@
+const renderer = require("@exportarts/prismic-span-renderer");
 module.exports = {
     /**
      * Returns back some attributes based on whether the
@@ -19,6 +20,9 @@ module.exports = {
       }
   
       return response;
+    },
+    fixPrismic(textArray) {
+      return renderer.renderText(textArray);
     }
   };
   

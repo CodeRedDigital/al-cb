@@ -4,6 +4,8 @@
 <main>
     <h2>Project page</h2>
     <p>Title === {{ title }}</p>
+    {{ helpers.fixPrismic(project.data.text) | safe }}
+    <hr>
     {{ content | safe }}
 </main>
 {% include "partials/site-foot.html" %}

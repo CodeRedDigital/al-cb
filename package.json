@@ -21,6 +21,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-cache-assets": "^2.1.0",
+    "@exportarts/prismic-span-renderer": "^0.7.1",
     "@prismicio/client": "^4.0.0",
     "concurrently": "^6.0.1",
     "gulp": "^4.0.2",
