@@ -1,0 +1,10 @@
+{% set title = project.data.title[0].text %}
+{% extends "layouts/base.html" %} {% block content %}
+{% include "partials/site-head.html" %}
+<main>
+    <h2>Project page</h2>
+    <p>Title === {{ title }}</p>
+    {{ content | safe }}
+</main>
+{% include "partials/site-foot.html" %}
+{% endblock %} 
