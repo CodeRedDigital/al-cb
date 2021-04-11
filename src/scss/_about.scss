@@ -4,6 +4,9 @@
     main {
         width: 90vw;
         margin: 0 auto;
+        @media(min-width: 1200px) {
+            columns: 2;
+        }
     }
     header nav #hamburger div {
         background-color: $cool-grey;

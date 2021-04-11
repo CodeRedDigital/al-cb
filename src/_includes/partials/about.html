@@ -1,0 +1,14 @@
+{% if about.length %}
+    {% for content in about %}
+        <img src="{{ content.data.image.url }}" alt="{{ content.data.image.alt }}">
+        {% if content.data.text.length %}
+            {% for paragraph in content.data.text %}
+                {% if paragraph.spans.length %}
+                    <p style="color:red;">{{ paragraph.text }}</p>
+                {% else %}
+                    <p>{{ paragraph.text }}</p>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
