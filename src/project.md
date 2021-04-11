@@ -9,6 +9,6 @@ layout: 'layouts/project.html'
 color: 'cool-grey'
 background: 'rusty-orange'
 logo-colours: ['cool-grey', 'pale-blue', 'charcoal-blue']
-bodyclass: 'projects'
+bodyclass: 'project-page'
 ---
 {{ project.data.title[0].text }}

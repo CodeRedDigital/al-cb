@@ -2,11 +2,29 @@
 {% extends "layouts/base.html" %} {% block content %}
 {% include "partials/site-head.html" %}
 <main>
-    <h2>Project page</h2>
-    <p>Title === {{ title }}</p>
-    {{ helpers.fixPrismic(project.data.text) | safe }}
-    <hr>
-    {{ content | safe }}
+    {% if project.data.gallery.length %}
+    <section class="gallery" aria-label="Gallery">
+        <h2>Gallery</h2>
+        <ol class="carousel__viewport">
+            {% for image in project.data.gallery %}
+                <p>{{ image.image.dimensions.width }} - {{ loop.index }}</p>
+                <li id="carousel__slide{{ loop.index }}" tabindex="0" class="carousel__slide">
+                    <img src="{{ image.image.url }}" alt="">
+                    <div class="carousel__snapper">
+                        <a href="#carousel__slide{% if loop.index == 1 %}{{ loop.length }}{% else %}{{ loop.index - 1 }}{% endif %}" class="carousel__prev">Go to last slide</a>
+                        <a href="#carousel__slide{{ loop.index + 1 }}" class="carousel__next">Go to next slide</a>
+                    </div>
+                </li>
+            {% endfor %}
+        </ol>
+    </section>
+    {% else %}
+    <p>No gallery</p>
+    {% endif %}
+    <section class="content">
+        <h2>Content</h2>
+        {{ helpers.fixPrismic(project.data.text) | safe }}
+    </section>
 </main>
 {% include "partials/site-foot.html" %}
 {% endblock %} 
