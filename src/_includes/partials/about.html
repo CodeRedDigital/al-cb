@@ -11,4 +11,6 @@
             {% endfor %}
         {% endif %}
     {% endfor %}
+{% else %}
+    {{ content | safe }}
 {% endif %}
