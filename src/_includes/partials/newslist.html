@@ -1,12 +1,16 @@
-{% if prismic.results.length %}
+{% if news.length %}
 <section class="newslist">
 <h2>Current Reads</h2>
-    {% for result in prismic.results %}
+    {% for result in news %}
     {% if result.type == 'news' %}
         <article>
             <h3>{{ result.data.title[0].text }}</h3>
             {% if result.data.body.length %}
-                <p>{{ result.data.body[0].text }}</p>
+                {% if result.data.body[0].spans.length %}
+                    <p style="color:red">{{ result.data.body[0].text }}</p>
+                {% else %}
+                    <p>{{ result.data.body[0].text }}</p>
+                {% endif %}
             {% endif %}
         </article>
     {% endif %}
