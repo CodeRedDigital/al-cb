@@ -2,18 +2,13 @@
 <section class="newslist">
 <h2>Current Reads</h2>
     {% for result in news %}
-    {% if result.type == 'news' %}
+        {% set newsArray = [result.data.body[0]] %}
         <article>
             <h3>{{ result.data.title[0].text }}</h3>
             {% if result.data.body.length %}
-                {% if result.data.body[0].spans.length %}
-                    <p style="color:red">{{ result.data.body[0].text }}</p>
-                {% else %}
-                    <p>{{ result.data.body[0].text }}</p>
-                {% endif %}
+                {{ helpers.fixPrismic(newsArray) | safe }}
             {% endif %}
         </article>
-    {% endif %}
     {% endfor %}
 </section>
 {% endif %}

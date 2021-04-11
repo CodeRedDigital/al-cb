@@ -1,18 +1,15 @@
-{% if prismic.results.length %}
+{% if upcoming.length %}
 <section class="upcoming">
 <h2>Upcoming Projects</h2>
-    {% for result in prismic.results %}
-    {% if result.type == 'upcoming' %}
-    <h3>{{ result.data.project_title[0].text }}</h3>
-    <article>
-    {% if result.data.body.length %}
-        <p>{{ result.data.body[0].text }}</p>
-    {% endif %}
-    {% if result.data.image.url.length %}
-        <img src="{{ result.data.image.url }}" alt="">
-    {% endif %}
-    </article>
-    {% endif %}
+    {% for result in upcoming %}
+        {% set upcomingArray = [result.data.body[0]] %}
+        <h3>{{ result.data.project_title[0].text }}</h3>
+        <article>
+            {{ helpers.fixPrismic(upcomingArray) | safe }}
+            {% if result.data.image.url.length %}
+                <img src="{{ result.data.image.url }}" alt="">
+            {% endif %}
+        </article>
     {% endfor %}
 </section>
 {% endif %}
