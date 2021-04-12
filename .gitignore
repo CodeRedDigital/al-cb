@@ -9,6 +9,7 @@ Thumbs.db
 .env
 .cache
 .env.local
+.vscode
 
 # Node modules and output
 node_modules
