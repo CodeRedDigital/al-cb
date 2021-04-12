@@ -21,6 +21,14 @@ module.exports = {
   
       return response;
     },
+    /** 
+     * Uses prismic-span-render https://github.com/exportarts/prismic-span-renderer
+     * Returns back some paragraphs with the spans spliced into them
+     * from an array of data from prismic.io
+     *
+     * @param {array} textArray The array of content from prismic.io
+     * @returns {String} The html to create the content as a string output on the page using the safe filter
+     */
     fixPrismic(textArray) {
       return renderer.renderText(textArray);
     }
