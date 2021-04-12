@@ -1,7 +1,7 @@
-{% if upcoming.length %}
+{% if upcoming|length %}
 <section class="upcoming">
 <h2>Upcoming Projects</h2>
-    {% for result in upcoming %}
+    {% for result in upcoming.results %}
         {% set upcomingArray = [result.data.body[0]] %}
         <h3>{{ result.data.project_title[0].text }}</h3>
         <article>

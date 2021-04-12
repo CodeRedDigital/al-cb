@@ -1,0 +1,77 @@
+{
+    "page": 1,
+    "results_per_page": 20,
+    "results_size": 1,
+    "total_results_size": 1,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null,
+    "results": [
+        {
+            "id": "XSS4XhAAACIA6p90",
+            "uid": "home",
+            "type": "home",
+            "href": "https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YHQO3hMAACAAozsE&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XSS4XhAAACIA6p90%22%29+%5D%5D",
+            "tags": [],
+            "first_publication_date": "2019-07-09T15:56:14+0000",
+            "last_publication_date": "2020-11-09T15:42:57+0000",
+            "slugs": [
+                "home"
+            ],
+            "linked_documents": [],
+            "lang": "en-gb",
+            "alternate_languages": [],
+            "data": {
+                "title": [
+                    {
+                        "type": "heading1",
+                        "text": "Home",
+                        "spans": []
+                    }
+                ],
+                "contact_text": [
+                    {
+                        "type": "paragraph",
+                        "text": "caroline@carolineboseley.com",
+                        "spans": [
+                            {
+                                "start": 0,
+                                "end": 28,
+                                "type": "hyperlink",
+                                "data": {
+                                    "link_type": "Web",
+                                    "url": "mailto:caroline@carolineboseley.co.uk"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Exchange, Somerset House, West Service Yard, Goods Entrance, Victoria Embankment, London, WC2R 1LA\n",
+                        "spans": []
+                    }
+                ],
+                "links": [
+                    {
+                        "link_title": "Instagram",
+                        "link": {
+                            "link_type": "Web",
+                            "url": "https://www.instagram.com/carolineboseley/",
+                            "target": "_blank"
+                        }
+                    },
+                    {
+                        "link_title": "LinkedIn",
+                        "link": {
+                            "link_type": "Web",
+                            "url": "https://www.linkedin.com/in/caroline-b-9a102b186/?trk",
+                            "target": "_blank"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "version": "fbb44a3",
+    "license": "All Rights Reserved"
+}

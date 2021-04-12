@@ -1,10 +1,10 @@
-{% if about.length %}
-    {% for content in about %}
+{% if about|length %}
+    {% for content in about.results %}
         <img src="{{ content.data.image.url }}" alt="{{ content.data.image.alt }}">
-        {% if content.data.text.length %}
-            {{ helpers.fixPrismic(content.data.text) | safe }}
+        {% if content.data.text|length %}
+        {{ helpers.fixPrismic(content.data.text) | safe }}
         {% endif %}
-    {% endfor %}
+        {% endfor %}
 {% else %}
     {{ content | safe }}
 {% endif %}

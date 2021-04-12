@@ -1,7 +1,7 @@
-{% if news.length %}
+{% if news|length %}
 <section class="newslist">
 <h2>Current Reads</h2>
-    {% for result in news %}
+    {% for result in news.results %}
         {% set newsArray = [result.data.body[0]] %}
         <article>
             <h3>{{ result.data.title[0].text }}</h3>

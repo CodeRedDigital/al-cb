@@ -1,9 +1,9 @@
-{% if contact.length %}
-    {% for content in contact %}
-        {% if content.data.contact_text.length %}
-            {{ helpers.fixPrismic(content.data.contact_text) | safe }}
+{% if contact|length %}
+    {% for content in contact.results %}
+        {% if content.data.contact_text|length %}
+        {{ helpers.fixPrismic(content.data.contact_text) | safe }}
         {% endif %}
-    {% endfor %}
+        {% endfor %}
 {% else %}
     {{ content | safe }}
 {% endif %}
