@@ -1,9 +1,9 @@
 ---
 pagination:
-    data: projects
+    data: projects.results
     size: 1
     alias: project
-# permalink: "projects/{{ project.slugs[0] }}/"
+permalink: "projects/{{ project.slugs[0] | slug }}/"
 title: "Placeholder"
 layout: 'layouts/project.html'
 color: 'cool-grey'
