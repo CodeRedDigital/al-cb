@@ -9,7 +9,7 @@ module.exports = async () => {
   try {
     // Grabs either the fresh remote data or cached data (will always be fresh live)
     const {results} = await Cache(        
-      'https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YFTApRMAACEAGc-Q&q=[[%3Ad+%3D+at(document.type%2C+%22upcoming%22)+]]',
+      'https://carolineboseley.cdn.prismic.io/api/v2/documents/search?ref=YHQO3hMAACAAozsE&q=[[%3Ad+%3D+at(document.type%2C+%22upcoming%22)+]]',
       {
         duration: '1d', // 1 day
         type: 'json'
