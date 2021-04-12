@@ -1,4 +1,16 @@
-.project-page > .container > main > section {
-    max-width: 1280px;
-    margin: 0 auto;
+.project-page > .container > main {
+    section {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: block;
+    }
+    .project-content{
+        color: inherit;
+    }
+    .project-gallery {
+        height: 50vh;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: row;
+    }
 }

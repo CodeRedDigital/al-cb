@@ -3,7 +3,8 @@
 {% include "partials/site-head.html" %}
 <main>
     {# % include "partials/gallery.html" % #}
-    <section class="content">
+    <section class="project-gallery"></section>
+    <section class="project-content">
         {{ helpers.fixPrismic(project.data.text) | safe }}
     </section>
 </main>
