@@ -3,7 +3,23 @@
 {% include "partials/site-head.html" %}
 <main>
     {# % include "partials/gallery.html" % #}
-    <section class="project-gallery"></section>
+    <section class="project-gallery">
+        <div class="left">
+            <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="1.34998" y1="72.0607" x2="72.0607" y2="1.35" stroke="#814834" stroke-width="3"/>
+                <line x1="72.0607" y1="140.65" x2="1.35" y2="69.9393" stroke="#814834" stroke-width="3"/>
+                </svg>                
+        </div>
+        <div class="image">
+            <img src="https://images.prismic.io/carolineboseley/4114e190-dc93-4b30-9f34-74df5d316071_Kings+Road+Day+%2816+of+27%29.jpg?auto=compress,format" alt="">
+        </div>
+        <div class="right">
+            <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="140.651" y1="69.9393" x2="69.9398" y2="140.65" stroke="#814834" stroke-width="3"/>
+                <line x1="69.9396" y1="1.34998" x2="140.65" y2="72.0607" stroke="#814834" stroke-width="3"/>
+                </svg>                
+        </div>
+    </section>
     <section class="project-content">
         {{ helpers.fixPrismic(project.data.text) | safe }}
     </section>
