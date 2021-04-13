@@ -13,14 +13,32 @@
           </ul>
         </div>
     </div>
-    <ul class="indicators">
-        {% for image in project.data.gallery %}
-        <li class="indicator">
-          <button class="indicator-button" {% if loop.first %}aria-pressed="true"{% endif %}></button>
-        </li>
-        {% endfor %}
-      </ul>
+    <div class="controls ">
+    <div class="controls">
+        <button class="left">
+            <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="1.34998" y1="72.0607" x2="72.0607" y2="1.35" stroke="#814834" stroke-width="3"/>
+            <line x1="72.0607" y1="140.65" x2="1.35" y2="69.9393" stroke="#814834" stroke-width="3"/>
+            </svg>
+        </button>
+        <ul class="indicators">
+            {% for image in project.data.gallery %}
+            <li class="indicator">
+              <button class="indicator-button" {% if loop.first %}aria-pressed="true"{% else %}aria-pressed="false"{% endif %}></button>
+            </li>
+            {% endfor %}
+        </ul>
+        <button class="right">
+            <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="140.651" y1="69.9393" x2="69.9398" y2="140.65" stroke="#814834" stroke-width="3"/>
+            <line x1="69.9396" y1="1.34998" x2="140.65" y2="72.0607" stroke="#814834" stroke-width="3"/>
+            </svg>
+        </button>
+    </div>
 </section>
+<script>
+    const numOfImages = {{ project.data.gallery.length }};
+</script>
 {% else %}
 <section class="project-gallery" aria-label="Gallery">
     <p>No gallery</p>

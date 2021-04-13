@@ -85,6 +85,8 @@ function debounce(func, ms) {
 
 const indicators = document.querySelectorAll('.indicator-button')
 const scroller = document.querySelector('.scroll')
+const left = document.querySelector('.left')
+const right = document.querySelector('.right')
 
 function setAriaLabels() {
   indicators.forEach((indicator, i) => {
@@ -100,16 +102,75 @@ function setAriaPressed(index) {
 
 indicators.forEach((indicator, i) => {
   indicator.addEventListener('click', e => {
+      console.log('clicked ' + i)
     e.preventDefault()
     e.stopPropagation()
     setAriaPressed(i)
-    const scrollLeft = Math.floor(scroller.scrollWidth * (i / 4))
+    const scrollLeft = Math.floor(scroller.scrollWidth * (i / numOfImages))
     smoothScroll(scroller, scrollLeft, true)
-  })
+})
+})
+
+let getPressedButtonIndex = buttons => {
+    for (let i = 0; i < buttons.length; i++) {
+      if (buttons[i].getAttribute("aria-pressed") === "true") {
+        return i;
+        // break;
+      } else {
+        return 1;
+      }
+    }
+    
+};
+
+let currentImageShown = buttons => {
+  const index = buttons.findIndex(x => x.getAttribute('aria-index') === 'true');
+}
+
+let checkFirst = (image) => {
+    if (image === 0) {
+        console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning " + numOfImages);
+        return numOfImages;
+    }
+    else {
+        console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning " + image);
+        return image;
+    }
+}
+
+let checkLast = (image) => {
+    if (image === numOfImages) {
+        console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning 0");
+        return 0;
+    }
+    else {
+        console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning " + image);
+        return image;
+    }
+}
+
+left.addEventListener('click', e => {
+    console.log('clicked left')
+    e.preventDefault()
+    e.stopPropagation()
+    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button'));
+    console.log("currentImage is set to " + currentImage);
+    const scrollLeft = Math.floor(scroller.scrollWidth * (currentImage / numOfImages))
+    smoothScroll(scroller, scrollLeft, true)
+})
+
+right.addEventListener('click', e => {
+    console.log('clicked right')
+    e.preventDefault()
+    e.stopPropagation()
+    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button'));
+    console.log("currentImage is set to " + currentImage);
+    const scrollLeft = Math.floor(scroller.scrollWidth * (currentImage / numOfImages))
+    smoothScroll(scroller, scrollLeft, true)
 })
 
 scroller.addEventListener('scroll', debounce(() => {
-  let index = Math.round((scroller.scrollLeft / scroller.scrollWidth) * 4)
+  let index = Math.round((scroller.scrollLeft / scroller.scrollWidth) * numOfImages)
   setAriaPressed(index)
 }, 200))
 

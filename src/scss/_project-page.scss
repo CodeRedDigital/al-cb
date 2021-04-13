@@ -153,6 +153,9 @@
 
 .left, .right {
   height: 3rem;
+  svg {
+    display: none;
+  }
 }
 
 .indicators {
