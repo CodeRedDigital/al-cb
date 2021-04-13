@@ -13,6 +13,13 @@
           </ul>
         </div>
     </div>
+    <ul class="indicators">
+        {% for image in project.data.gallery %}
+        <li class="indicator">
+          <button class="indicator-button" {% if loop.first %}aria-pressed="true"{% endif %}></button>
+        </li>
+        {% endfor %}
+      </ul>
 </section>
 {% else %}
 <section class="project-gallery" aria-label="Gallery">
