@@ -7,6 +7,9 @@
         @media(min-width: 1200px) {
             columns: 2;
         }
+        p {
+            padding-bottom: 1rem;
+        }
     }
     header nav #hamburger div {
         background-color: $cool-grey;
