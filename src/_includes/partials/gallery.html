@@ -1,19 +1,31 @@
 {% if project.data.gallery.length %}
-<section class="gallery" aria-label="Gallery">
-    <h2>Gallery</h2>
+<section class="project-gallery" aria-label="Gallery">
     <ol class="carousel__viewport">
         {% for image in project.data.gallery %}
-            <p>{{ image.image.dimensions.width }} - {{ loop.index }}</p>
-            <li id="carousel__slide{{ loop.index }}" tabindex="0" class="carousel__slide">
-                <img src="{{ image.image.url }}" alt="">
-                <div class="carousel__snapper">
-                    <a href="#carousel__slide{% if loop.index == 1 %}{{ loop.length }}{% else %}{{ loop.index - 1 }}{% endif %}" class="carousel__prev">Go to last slide</a>
-                    <a href="#carousel__slide{{ loop.index + 1 }}" class="carousel__next">Go to next slide</a>
-                </div>
-            </li>
+        <li id="carousel__slide{{ loop.index }}" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+                <a href="#carousel__slide{% if loop.index == 1 %}{{ loop.length }}{% else %}{{ loop.index - 1 }}{% endif %}" class="carousel__prev">
+                    <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1.34998" y1="72.0607" x2="72.0607" y2="1.35" stroke="#814834" stroke-width="3"/>
+                        <line x1="72.0607" y1="140.65" x2="1.35" y2="69.9393" stroke="#814834" stroke-width="3"/>
+                    </svg>
+                    <span>Go to slide {% if loop.index == 1 %}{{ loop.length }}{% else %}{{ loop.index - 1 }}{% endif %}</span></a>
+            </div>
+            <img src="{{ image.image.url }}" alt="" class="{% if image.image.dimensions.width > image.image.dimensions.height %}landscape{% else %}portrait{% endif %}">
+            <div class="carousel__snapper">
+                <a href="#carousel__slide{% if loop.index == loop.length %}1{% else %}{{ loop.index + 1 }}{% endif %}" class="carousel__next">
+                    <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="140.651" y1="69.9393" x2="69.9398" y2="140.65" stroke="#814834" stroke-width="3"/>
+                        <line x1="69.9396" y1="1.34998" x2="140.65" y2="72.0607" stroke="#814834" stroke-width="3"/>
+                    </svg>
+                    <span>Go to slide {% if loop.index == loop.length %}1{% else %}{{ loop.index + 1 }}{% endif %}</span></a>
+            </div>
+        </li>
         {% endfor %}
     </ol>
-    {% else %}
+</section>
+{% else %}
+<section class="project-gallery" aria-label="Gallery">
     <p>No gallery</p>
 </section>
 {% endif %}

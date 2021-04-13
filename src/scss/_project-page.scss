@@ -1,33 +1,254 @@
+.project-page {
+    --carousel-width: 90vw;
+    --carousel-height: calc(0.7 * var(--carousel-width));
+    --carousel-padding: 5px;
+  }
+  
+  @media (min-width: 480px) {
+    .project-page {
+      --carousel-width: 420px;
+    }
+  }
+  @media (min-width: 580px) {
+    .project-page {
+      --carousel-width: 520px;
+    }
+  }
+  @media (min-width: 720px) {
+    .project-page {
+      --carousel-width: 670px;
+    }
+  }
+  @media (min-width: 800px) {
+    .project-page {
+      --carousel-width: 750px;
+    }
+  }
+  @media (min-width: 900px) {
+    .project-page {
+      --carousel-width: 850px;
+    }
+  }
+  @media (min-width: 1000px) {
+    .project-page {
+      --carousel-width: 950px;
+    }
+  }
+  @media (min-width: 1100px) {
+    .project-page {
+      --carousel-width: 1050px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .project-page {
+      --carousel-width: 1140px;
+    }
+  }
+  @media (min-width: 1330px) {
+    .project-page {
+      --carousel-width: 1280px;
+    }
+  }
+  
+  .project-gallery {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  // .carousel-frame {
+  //   background: #fafafa;
+  //   padding: 10px;
+  //   border-radius: 3px;
+  //   border: 1px solid #ddd;
+  //   width: calc(var(--carousel-width) + (2 * var(--carousel-padding)));
+  //   height: calc(var(--carousel-height) + (2 * var(--carousel-padding)));
+  // }
+  
+  .carousel {
+    width: var(--carousel-width);
+    height: var(--carousel-height);
+  }
+  
+  .scroll {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  ul.scroll {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .scroll-item-outer {
+    width: 100%;
+    height: 100%
+  }
+  
+  .scroll-item {
+    width: var(--carousel-width);
+    height: 100%;
+  }
+  
+  img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @supports (scroll-snap-align: start) {
+    /* modern scroll snap points */
+    .scroll {
+      scroll-snap-type: x mandatory;
+    }
+    .scroll-item-outer {
+      scroll-snap-align: center;
+    }
+  }
+  
+  @supports not (scroll-snap-align: start) {
+    /* old scroll snap points spec */
+    .scroll {
+      -webkit-scroll-snap-type: mandatory;
+              scroll-snap-type: mandatory;
+      -webkit-scroll-snap-destination: 0 50%;
+              scroll-snap-destination: 0 50%;
+      -webkit-scroll-snap-points-x: repeat(100%);
+              scroll-snap-points-x: repeat(100%);
+    }
+    
+    .scroll-item-outer {
+      scroll-snap-coordinate: 0 0;
+    }
+  }
+
 .project-page > .container > main {
     section {
+        width: var(--carousel-width);
         max-width: 1280px;
         margin: 0 auto;
         display: block;
     }
     .project-content{
+        width: var(--carousel-width);
         color: inherit;
     }
-    .project-gallery {
-        display: grid;
-        grid-template-columns: 10% 80% 10%;
-        .left, .right {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            svg {
-                width: 95%;
-                height: auto;
-            }
-        }
-        .image {
-            height: 50vh;
-            display: flex;
-            justify-content: center;
-            fit-content: contain;
-            img {
-                max-width: 100%;
-                max-height: 100%;
-            }
-        }
-    }
+    // .project-gallery {
+    //     position: relative;
+    //     padding-top: 75%;
+    //     perspective: 100px;
+    //     > ol.carousel__viewport {
+    //         list-style: none;
+    //         margin: 0;
+    //         padding: 0;
+    //         position: absolute;
+    //         top: 0;
+    //         right: 0;
+    //         bottom: 0;
+    //         left: 0;
+    //         display: flex;
+    //         overflow-x: scroll;
+    //         counter-reset: item;
+    //         scroll-behavior: smooth;
+    //         scroll-snap-type: x mandatory;
+    //         // display: grid;
+    //         // grid-template-columns: 10% 80% 10%;
+    //         .left, .right, .carousel__snapper {
+    //             display: flex;
+    //             justify-content: center;
+    //             align-items: center;
+    //             svg {
+    //                 width: 95%;
+    //                 height: auto;
+    //             }
+    //         }
+    //         .carousel__slide {
+    //             position: relative;
+    //             flex: 10% 10% 80%;
+    //             width: 100%;
+    //             counter-increment: item;
+    //             // height: 50vh;
+    //             // display: flex;
+    //             // justify-content: center;
+    //             // fit-content: contain;
+    //             img {
+    //                 max-width: 100%;
+    //                 max-height: 100%;
+    //             }
+    //             :before {
+    //                 content: counter(item);
+    //                 position: absolute;
+    //                 top: 50%;
+    //                 left: 50%;
+    //                 transform: translate3d(-50%,-40%,70px);
+    //                 color: #fff;
+    //                 font-size: 2em;
+    //             }
+    //             .carousel__snapper {
+    //                 position: absolute;
+    //                 top: 0;
+    //                 left: 0;
+    //                 width: 100%;
+    //                 height: 100%;
+    //                 scroll-snap-align: center;
+    //             }
+    //         }
+    //     }
+    // }
 }
+
+// .carousel::before,
+// .carousel::after,
+// .carousel__prev,
+// .carousel__next {
+//   position: absolute;
+//   top: 0;
+//   margin-top: 37.5%;
+//   width: 4rem;
+//   height: 4rem;
+//   transform: translateY(-50%);
+//   border-radius: 50%;
+//   font-size: 0;
+//   outline: 0;
+// }
+// 
+// .carousel::before,
+// .carousel__prev {
+//   left: -1rem;
+// }
+// 
+// .carousel::after,
+// .carousel__next {
+//   right: -1rem;
+// }
+// 
+// .carousel::before,
+// .carousel::after {
+//   content: '';
+//   z-index: 1;
+//   background-color: #333;
+//   background-size: 1.5rem 1.5rem;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   color: #fff;
+//   font-size: 2.5rem;
+//   line-height: 4rem;
+//   text-align: center;
+//   pointer-events: none;
+// }
+// 
+// .carousel::before {
+//   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+// }
+// 
+// .carousel::after {
+//   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+// }

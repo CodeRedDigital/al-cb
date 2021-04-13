@@ -1,0 +1,21 @@
+{% if project.data.gallery.length %}
+<section class="project-gallery" aria-label="Gallery">
+    <div class="carousel-frame">
+        <div class="carousel">
+          <ul class="scroll">
+              {% for image in project.data.gallery %}
+              <li class="scroll-item-outer">
+                  <div class="scroll-item">
+                      <img src="{{ image.image.url }}" alt="{{ image.image.alt }}" />
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+    </div>
+</section>
+{% else %}
+<section class="project-gallery" aria-label="Gallery">
+    <p>No gallery</p>
+</section>
+{% endif %}
