@@ -2,7 +2,7 @@
     color: $cool-grey;
     background-color: $rusty-orange;
     main {
-        width: 90vw;
+        width: 100%;
         margin: 0 auto;
         @media(min-width: 1200px) {
             columns: 2;
