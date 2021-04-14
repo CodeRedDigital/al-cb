@@ -74,7 +74,8 @@ header {
     nav{
         display: flex;
         justify-content: space-between;
-        padding: 0.25rem 0;
+        align-items: flex-end;
+        padding: 0.25rem 0 0 0;
         color: inherit;
         #toggleMenu {
             display: none;
@@ -174,6 +175,26 @@ header {
             transition: max-height .75s;
         }
     }
+}
+
+header nav h1 a svg[data-colour="cool-grey"] path {
+    fill: $cool-grey;
+    stroke: $cool-grey;
+}
+
+header nav h1 a svg[data-colour="rusty-orange"] path {
+    fill: $rusty-orange;
+    stroke: $rusty-orange;
+}
+
+header nav h1 a svg[data-colour="pale-blue"] path {
+    fill: $pale-blue;
+    stroke: $pale-blue;
+}
+
+header nav h1 a svg[data-colour="charcoal-blue"] path {
+    fill: $charcoal-blue;
+    stroke: $charcoal-blue;
 }
 
 footer {

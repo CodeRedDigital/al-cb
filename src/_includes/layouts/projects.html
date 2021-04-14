@@ -1,4 +1,3 @@
-{% set colours = logo-colours %}
 {% extends "layouts/base.html" %} {% block content %}
 {% include "partials/site-head.html" %}
 <main>
@@ -6,7 +5,7 @@
 </main>
 {% include "partials/site-foot.html" %}
 <script>
-    const colours = ['cool-grey', 'pale-blue', 'charcoal-blue', 'rusty-orange'];
+    const colours = ['cool-grey', 'pale-blue', 'charcoal-blue', 'rusty-orange']; // dynamically pull from page settings
     const numOfColours = colours.length;
     function changeColour(el) {
         const rndNum = Math.floor((Math.random() * numOfColours)); 
