@@ -1,6 +1,6 @@
 <script>
   const numOfImages = {{ project.data.gallery.length }};
-    const easingOutQuint = (x, t, b, c, d) =>
+  const easingOutQuint = (x, t, b, c, d) =>
   c * ((t = t / d - 1) * t * t * t * t + 1) + b
 
 function smoothScrollPolyfill (node, key, target) {
