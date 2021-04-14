@@ -98,6 +98,7 @@ function setAriaLabels() {
 function setAriaPressed(index) {
   indicators.forEach((indicator, i) => {
     indicator.setAttribute('aria-pressed', !!(i === index))
+    indicator.setAttribute('data-current', !!(i === index))
   })
 }
 
@@ -114,7 +115,7 @@ indicators.forEach((indicator, i) => {
 
 let getPressedButtonIndex = buttons => {
     for (let i = 0; i < buttons.length; i++) {
-      if (buttons[i].getAttribute("aria-pressed") === "true") {
+      if (buttons[i].getAttribute("data-current") === "true") {
         return i;
         // break;
       } else {
