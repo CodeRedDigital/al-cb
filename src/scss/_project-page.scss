@@ -1,52 +1,63 @@
 .project-page {
     --carousel-width: 90vw;
     --carousel-height: calc(0.7 * var(--carousel-width));
-    --carousel-padding: 5px;
+    --carousel-padding: 0;
+
   }
+
+.project-gallery > .carousel-frame {
+  .left, .right {
+    // display: none;
+  }
+}
   
   @media (min-width: 480px) {
     .project-page {
-      --carousel-width: 420px;
+      --carousel-width: 480px;
     }
   }
   @media (min-width: 580px) {
     .project-page {
-      --carousel-width: 520px;
+      --carousel-width: 510px;
+      --carousel-padding: 20px
+      
     }
   }
   @media (min-width: 720px) {
     .project-page {
-      --carousel-width: 670px;
+      --carousel-width: 640px;
+      --carousel-padding: 30px
     }
   }
   @media (min-width: 800px) {
     .project-page {
-      --carousel-width: 750px;
+      --carousel-width: 670px;
     }
   }
   @media (min-width: 900px) {
     .project-page {
-      --carousel-width: 850px;
+      --carousel-width: 750px;
+      --carousel-padding: 50px
     }
   }
   @media (min-width: 1000px) {
     .project-page {
-      --carousel-width: 950px;
+      --carousel-width: 850px;
     }
   }
   @media (min-width: 1100px) {
     .project-page {
-      --carousel-width: 1050px;
+      --carousel-width: 950px;
     }
   }
   @media (min-width: 1200px) {
     .project-page {
-      --carousel-width: 1140px;
+      --carousel-width: 1040px;
     }
   }
   @media (min-width: 1330px) {
     .project-page {
-      --carousel-width: 1280px;
+      --carousel-width: 1180px;
     }
   }
   
@@ -58,14 +69,14 @@
     align-items: center;
   }
   
-  // .carousel-frame {
-  //   background: #fafafa;
-  //   padding: 10px;
-  //   border-radius: 3px;
-  //   border: 1px solid #ddd;
-  //   width: calc(var(--carousel-width) + (2 * var(--carousel-padding)));
-  //   height: calc(var(--carousel-height) + (2 * var(--carousel-padding)));
-  // }
+  .carousel-frame {
+    display: grid;
+    grid-template-columns: var(--carousel-padding) auto var(--carousel-padding);
+    place-items: center;
+    svg {
+      width: var(--carousel-padding);
+    }
+  }
   
   .carousel {
     width: var(--carousel-width);
@@ -134,13 +145,13 @@
 
 .project-page > .container > main {
     section {
-        width: var(--carousel-width);
-        max-width: 1280px;
+        width: calc(var(--carousel-width) + (2 * var(--carousel-padding)));
+        max-width: 1300px;
         margin: 0 auto;
         display: block;
     }
     .project-content{
-        width: var(--carousel-width);
+        width: calc(var(--carousel-width) + (2 * var(--carousel-padding)));
         color: inherit;
     }
 }
@@ -152,10 +163,8 @@
 }
 
 .left, .right {
-  height: 3rem;
-  // svg {
-  //   display: none;
-  // }
+  display: grid;
+  place-items: center;
 }
 
 .indicators {
@@ -174,7 +183,7 @@ ul.indicators {
   padding: 10px;
 }
 
-.indicator-button, .left, .right {
+.indicator-button, .left-button, .right-button {
   cursor: pointer;
   background: none;
   border: none;
