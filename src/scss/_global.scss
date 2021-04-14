@@ -176,6 +176,26 @@ header {
     }
 }
 
+header nav h1 a svg[data-colour="cool-grey"] path {
+    fill: $cool-grey;
+    stroke: $cool-grey;
+}
+
+header nav h1 a svg[data-colour="rusty-orange"] path {
+    fill: $rusty-orange;
+    stroke: $rusty-orange;
+}
+
+header nav h1 a svg[data-colour="pale-blue"] path {
+    fill: $pale-blue;
+    stroke: $pale-blue;
+}
+
+header nav h1 a svg[data-colour="charcoal-blue"] path {
+    fill: $charcoal-blue;
+    stroke: $charcoal-blue;
+}
+
 footer {
     position: absolute;
     bottom: 0;
