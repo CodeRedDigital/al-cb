@@ -50,17 +50,13 @@
         margin-top: -75px;
     }
     @supports not (aspect-ratio: 1 / 1) {
-        h2 {
-            position: sticky;
-            top: 120px;
-        }
-        ::before {
+        &::before {
           float: left;
           padding-top: 100%;
           content: "";
         }
       
-        ::after {
+        &::after {
           display: block;
           content: "";
           clear: both;
