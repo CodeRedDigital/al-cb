@@ -74,7 +74,8 @@ header {
     nav{
         display: flex;
         justify-content: space-between;
-        padding: 0.25rem 0;
+        align-items: flex-end;
+        padding: 0.25rem 0 0 0;
         color: inherit;
         #toggleMenu {
             display: none;
