@@ -23,7 +23,7 @@
         </button>
         <ul class="indicators">
             {% for image in project.data.gallery %}
-            <li class="indicator">
+            <li class="indicator"> 
               <button class="indicator-button" {% if loop.first %}aria-pressed="true"{% else %}aria-pressed="false"{% endif %}></button>
             </li>
             {% endfor %}
@@ -36,9 +36,6 @@
         </button>
     </div>
 </section>
-<script>
-    const numOfImages = {{ project.data.gallery.length }};
-</script>
 {% else %}
 <section class="project-gallery" aria-label="Gallery">
     <p>No gallery</p>
