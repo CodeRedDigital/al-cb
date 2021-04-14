@@ -145,22 +145,22 @@ let currentImageShown = buttons => {
 let checkFirst = (image) => {
     if (image === 0) {
         console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning " + numOfImages);
-        return numOfImages;
+        return numOfImages + 1;
     }
     else {
         console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning " + image);
-        return image;
+        return image -1;
     }
 }
 
 let checkLast = (image) => {
     if (image === numOfImages) {
         console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning 0");
-        return 0;
+        return 1;
     }
     else {
         console.log("image is " + image + " and numOfImages is " + numOfImages + " and we are returning " + image);
-        return image;
+        return image +1;
     }
 }
 
@@ -168,10 +168,10 @@ left.addEventListener('click', e => {
     console.log('clicked left')
     e.preventDefault()
     e.stopPropagation()
-    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button')) - 1;
-    setAriaPressed(currentImage)
+    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button'));
+    setAriaPressed(checkFirst(currentImage))
     console.log("currentImage is set to " + currentImage);
-    const scrollLeft = Math.floor(scroller.scrollWidth * (currentImage / numOfImages))
+    const scrollLeft = Math.floor(scroller.scrollWidth * (checkFirst(currentImage) / numOfImages))
     smoothScroll(scroller, scrollLeft, true)
   })
   
@@ -179,10 +179,10 @@ left.addEventListener('click', e => {
     console.log('clicked right')
     e.preventDefault()
     e.stopPropagation()
-    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button')) + 1;
-    setAriaPressed(currentImage)
+    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button'));
+    setAriaPressed(checkLast(currentImage))
     console.log("currentImage is set to " + currentImage);
-    const scrollLeft = Math.floor(scroller.scrollWidth * (currentImage / numOfImages))
+    const scrollLeft = Math.floor(scroller.scrollWidth * (checkLast(currentImage) / numOfImages))
     smoothScroll(scroller, scrollLeft, true)
 })
 
