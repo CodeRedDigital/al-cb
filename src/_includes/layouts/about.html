@@ -4,4 +4,13 @@
     {% include "partials/about.html" %}
 </main>
 {% include "partials/site-foot.html" %}
+<script>
+    const colours = ['cool-grey', 'pale-blue', 'charcoal-blue']; // dynamically pull from page settings
+    const numOfColours = colours.length;
+    function changeColour(el) {
+        const rndNum = Math.floor((Math.random() * numOfColours)); 
+        el.removeAttribute('data-colour');
+        el.setAttribute('data-colour', colours[rndNum]);
+    }
+</script>
 {% endblock %} 
