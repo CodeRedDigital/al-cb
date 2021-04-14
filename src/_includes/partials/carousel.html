@@ -113,16 +113,29 @@ indicators.forEach((indicator, i) => {
 })
 })
 
+// let getPressedButtonIndex = buttons => {
+//     for (let i = 0; i < buttons.length; i++) {
+//       if (buttons[i].getAttribute("data-current") === true) {
+//         console.log("This returned true")
+//         return i;
+//         // break;
+//       } else {
+//         console.log("This returned false")
+//         return 1;
+//       }
+//     }
+//     
+// };
+
 let getPressedButtonIndex = buttons => {
     for (let i = 0; i < buttons.length; i++) {
+      console.log("The button " + i + " has a value of " + buttons[i].getAttribute("data-current"));
       if (buttons[i].getAttribute("data-current") === "true") {
+        console.log("I am returning " + i)
         return i;
-        // break;
-      } else {
-        return 1;
       }
     }
-    
+    return -1;   
 };
 
 let currentImageShown = buttons => {
@@ -155,17 +168,19 @@ left.addEventListener('click', e => {
     console.log('clicked left')
     e.preventDefault()
     e.stopPropagation()
-    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button'));
+    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button')) - 1;
+    setAriaPressed(currentImage)
     console.log("currentImage is set to " + currentImage);
     const scrollLeft = Math.floor(scroller.scrollWidth * (currentImage / numOfImages))
     smoothScroll(scroller, scrollLeft, true)
-})
-
-right.addEventListener('click', e => {
+  })
+  
+  right.addEventListener('click', e => {
     console.log('clicked right')
     e.preventDefault()
     e.stopPropagation()
-    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button'));
+    let currentImage = getPressedButtonIndex(document.querySelectorAll('.indicator-button')) + 1;
+    setAriaPressed(currentImage)
     console.log("currentImage is set to " + currentImage);
     const scrollLeft = Math.floor(scroller.scrollWidth * (currentImage / numOfImages))
     smoothScroll(scroller, scrollLeft, true)
