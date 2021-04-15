@@ -13,7 +13,7 @@
         justify-items: start;
     }
     main {
-        .content {
+        section.content {
             max-width: 90vw;
             margin-bottom: 2em;
             p {
@@ -43,27 +43,43 @@
                 width: 90vw;
                 height: 50vh;
                 position: absolute;
-                top: 6rem;
+                top: 25vh;
                 left: 0;
                 display: block;
             }
-        }
-        main {
-            .content {
-                p {
-                    font-size: 2.3rem;
-                    strong {
-                        font-size: 4rem;
+            main {
+                padding-bottom: 0;
+                margin-bottom: 0;
+                section.content {
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                    p {
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                        font-size: 2.3rem;
+                        strong {
+                            font-size: 4rem;
+                        }
                     }
                 }
             }
         }
     }
 }
+
+@media(min-width: 1200px) {
+    .welcome .container svg.line {
+        top: 40vh;
+    }
+}
+
 @media(min-width: 1200px) {
     .welcome {
+        svg.line {
+            top: 30vh;
+        }
         main {
-            .content {
+            section.content {
                 p {
                     font-size: 2.3rem;
                     strong {
@@ -78,7 +94,7 @@
 @media(min-width: 1439px) {
     .welcome {
         main {
-            .content {
+            section.content {
                 p {
                     font-size: 2.72rem;
                     line-height: 1.4;
@@ -94,7 +110,7 @@
 @media(min-width: 1919px) {
     .welcome {
         main {
-            .content {
+            section.content {
                 p {
                     font-size: 3.22rem;
                     strong {
