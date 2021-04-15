@@ -12,16 +12,19 @@
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     grid-gap: var(--auto-grid-gap, 1rem);
     padding: 0;
-    @media(min-width: 1850px) {
+    @media(min-width: 420px) {
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
+    @media(min-width: 1190px) {
         grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     }
-    @media(min-width: 2290px) {
+    @media(min-width: 1400px) {
         grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     }
-    @media(min-width: 2740px) {
+    @media(min-width: 1800px) {
         grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     }
 }
