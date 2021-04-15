@@ -1,11 +1,14 @@
 ---
-title: 'About'
-layout: 'layouts/about.html'
-color: 'cool-grey'
-background: 'rusty-orange'
-logo-colours: ['cool-grey', 'pale-blue', 'charcoal-blue']
-bodyclass: 'about'
-data: 'about'
+title: "About"
+layout: "layouts/about.html"
+color: "cool-grey"
+background: "rusty-orange"
+logo-colours: ["cool-grey", "pale-blue", "charcoal-blue"]
+bodyclass: "about"
+data: "about"
+cursors:
+  normal: "/images/cool-grey-cursor.png"
+  pointer: "/images/charcoal-blue-cursor.png"
 ---
 
 <p>After 12 years working in the City as a commercial solicitor and then Director of Human Resources, Caroline moved from education and fundraising and into curating. First gaining a Master's in Modern &amp; Contemporary Art from Christie's Education, she went on to complete an MA in Curating Contemporary Art at the Royal College of Art, London.&nbsp;&nbsp;</p>

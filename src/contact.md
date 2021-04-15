@@ -1,10 +1,13 @@
 ---
-title: 'Contact'
-layout: 'layouts/contact.html'
-color: 'cool-grey'
-background: 'charcoal-blue'
-logo-colours: ['rusty-orange', 'cool-grey', 'pale-blue', 'charcoal-blue']
-bodyclass: 'contact'
+title: "Contact"
+layout: "layouts/contact.html"
+color: "cool-grey"
+background: "charcoal-blue"
+logo-colours: ["rusty-orange", "cool-grey", "pale-blue", "charcoal-blue"]
+bodyclass: "contact"
+cursors:
+  normal: "/images/cool-grey-cursor.png"
+  pointer: "/images/rusty-orange-cursor.png"
 ---
 
 <a href="mailto:caroline@carolineboseley.co.uk">caroline@carolineboseley.com</a>
