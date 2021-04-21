@@ -4,6 +4,12 @@
     font-size: 18px;
     font-family: "History 02";
     font-weight: 600;
+    .welcome-link {
+        text-decoration: none;
+    }
+    .underline {
+        text-decoration: underline;
+    }
     svg.line {
         display: none;
     }
