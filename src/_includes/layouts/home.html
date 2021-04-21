@@ -1,5 +1,6 @@
-{% extends "layouts/base.html" %} {% block content %}
-
+{% extends "layouts/base.html" %} 
+{% block content %}
+<a href="/projects/" class="welcome-link">
 <svg class="line" viewBox="0 0 4895.81 1734.9">
     <defs>
     <style>.cls-1{fill:none;stroke:#b1b2b5;stroke-miterlimit:10;stroke-width:5px;}</style>
@@ -10,10 +11,11 @@
     </g>
     </g>
 </svg>
+</a>
 <main>
     <section class="content">
     {{ content | safe }}
-    
     </section>
 </main>
+
 {% endblock %} 
