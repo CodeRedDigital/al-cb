@@ -8,6 +8,9 @@
             columns: 2;
             padding-top: 2rem;
         }
+        p {
+            break-inside: avoid;
+        }
     }
     header nav #hamburger div {
         background-color: $cool-grey;
