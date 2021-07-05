@@ -1,12 +1,12 @@
 .projects-page, .project-page {
-    color: $rusty-orange;
+    color: $charcoal-blue;
     background-color: white;
     main {
         width: 100%;
         margin: 0 auto;
     }
     header nav #hamburger div {
-        background-color: $rusty-orange;
+        background-color: $charcoal-blue;
     }
 }
 
@@ -112,7 +112,7 @@
 }
 
 .project:hover {
-    box-shadow: 10px 10px 0 0 $rusty-orange;
+    box-shadow: 10px 10px 0 0 $charcoal-blue;
     transition: box-shadow 400ms ease;
 }
 
