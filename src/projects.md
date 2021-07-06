@@ -6,5 +6,5 @@ logo-colours: ["cool-grey", "pale-blue", "charcoal-blue", "rusty-orange"]
 bodyclass: "projects-page"
 cursors:
   normal: "/images/charcoal-blue-cursor.png"
-  pointer: "/images/rusty-orange-cursor.png"
+  pointer: "/images/charcoal-blue-cursor.png"
 ---
