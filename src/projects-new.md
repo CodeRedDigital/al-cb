@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: "layouts/projects.html"
+layout: "layouts/projects-new.html"
 color: "charcoal-blue"
 logo-colours: ["cool-grey", "pale-blue", "charcoal-blue", "rusty-orange"]
 bodyclass: "projects-page"

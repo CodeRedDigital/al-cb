@@ -54,7 +54,7 @@ module.exports = {
         if (err) {
           console.log("Something went wrong: ", err);
         }
-        // console.log("Documents: ", response);
+        console.log("Documents: ", response);
         return response.documents||response.results||[];
       });
     }

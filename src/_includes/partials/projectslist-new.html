@@ -1,0 +1,18 @@
+{% if projects|length %}
+<nav>
+    <ul class="projects" role="list">
+    {% for project in projects.results %}
+    <li>
+        <a href="{{ project.slugs[0] | slug }}" class="{% if project.data.gallery[0].image.dimensions.width > project.data.gallery[0].image.dimensions.height %}landscape{% else %}portrait{% endif %} project" data-colour="rusty-orange" onmouseleave="changeColour(this)">
+            <div class="heading-wrapper">
+                <h2 class="project_name">{{ project.data.title[0].text }}</h2>
+            </div>
+            <img src="{{ project.data.gallery[0].image.url }}" alt="">
+        </a>
+    </li>
+    {% endfor %}
+    </ul>
+</nav>
+{% else %}
+<h2>no results</h2>
+{% endif %}
