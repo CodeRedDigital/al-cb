@@ -58,5 +58,20 @@ module.exports = {
         return response.documents||response.results||[];
       });
     }
+
+  getPrismicProjects(query = ""){
+      const typeQuery = Prismic.Predicates.at('document.type', query);
+      const options = {
+        accessToken: apiToken
+      }; // In Node.js, pass the request as 'req' to read the reference from the cookies
+      const client = Prismic.client(apiEndpoint, options)
+      return client.query(typeQuery, {}, function(err, response) { // An empty query will return all the documents
+        if (err) {
+          console.log("Something went wrong: ", err);
+        }
+        // console.log("Documents: ", response);
+        return response.documents||response.results||[];
+      });
+    }
   };
 
