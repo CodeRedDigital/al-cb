@@ -1,13 +1,13 @@
-{% if projects|length %}
+{% if reorderProjects|length %}
 <nav>
     <ul class="projects" role="list">
-    {% for project in projects.results %}
+    {% for project in reorderProjects %}
     <li>
-        <a href="{{ project.slugs[0] | slug }}" class="{% if project.data.gallery[0].image.dimensions.width > project.data.gallery[0].image.dimensions.height %}landscape{% else %}portrait{% endif %} project" data-colour="rusty-orange" onmouseleave="changeColour(this)">
+        <a href="{{ project.primary.link.slug | slug }}" class="project" data-colour="rusty-orange" onmouseleave="changeColour(this)">
             <div class="heading-wrapper">
-                <h2 class="project_name">{{ project.data.title[0].text }}</h2>
+                <h2 class="project_name">{{ project.primary.heading[0].text }}</h2>
             </div>
-            <img src="{{ project.data.gallery[0].image.url }}" alt="">
+            <img src="{{ project.primary.image.url }}" alt="">
         </a>
     </li>
     {% endfor %}
